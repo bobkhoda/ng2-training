@@ -13,6 +13,7 @@ export class ProductService {
     _productUrl: string = 'api/products/products.json';
 
     constructor(private _http: Http){
+      console.log("creating crud");
     }
 
     public getProducts(): Observable<IProduct[]> {
