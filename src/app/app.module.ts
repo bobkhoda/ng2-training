@@ -27,4 +27,4 @@ import {WelcomeComponent} from './home/welcome.component';
   bootstrap: [AppComponent]
 })
 export class AppModule {
-};
+}

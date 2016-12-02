@@ -33,5 +33,5 @@ import {ProductService} from './product.service';
 })
 
 export class ProductModule {
-};
+}
 
