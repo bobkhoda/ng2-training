@@ -1,11 +1,11 @@
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
-import {HttpModule} from "@angular/http";
-import {RouterModule} from "@angular/router";
-import {AppComponent} from "./app.component";
+import {HttpModule} from '@angular/http';
+import {RouterModule} from '@angular/router';
+import {AppComponent} from './app.component';
 
-import {ProductModule} from "./products/product.module";
-import {WelcomeComponent} from "./home/welcome.component";
+import {ProductModule} from './products/product.module';
+import {WelcomeComponent} from './home/welcome.component';
 
 @NgModule({
   declarations: [

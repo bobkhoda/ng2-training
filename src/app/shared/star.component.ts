@@ -1,10 +1,10 @@
-import {Component, OnChanges, Input, Output, EventEmitter} from "@angular/core";
+import {Component, OnChanges, Input, Output, EventEmitter} from '@angular/core';
 @Component({
-    selector: 'ai-star',
+    selector: 'app-ai-star',
     templateUrl: './star.component.html',
     styleUrls: ['./star.component.css']
 })
-export class StarComponent {
+export class StarComponent implements OnChanges {
     @Input() rating: number;
     starWidth: number;
     @Output() ratingClicked: EventEmitter<string> = new EventEmitter<string>();

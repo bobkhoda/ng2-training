@@ -1,11 +1,11 @@
-import {NgModule} from "@angular/core";
-import {ProductListComponent} from "./product-list.component";
-import {ProductDetailComponent} from "./product-detail.component";
-import {ProductFilterPipe} from "./product-filter.pipe";
-import {RouterModule} from "@angular/router";
-import {ProductDetailGuard} from "./product-guard.service";
-import {SharedModule} from "../shared/shared.module";
-import {ProductService} from "./product.service";
+import {NgModule} from '@angular/core';
+import {ProductListComponent} from './product-list.component';
+import {ProductDetailComponent} from './product-detail.component';
+import {ProductFilterPipe} from './product-filter.pipe';
+import {RouterModule} from '@angular/router';
+import {ProductDetailGuard} from './product-guard.service';
+import {SharedModule} from '../shared/shared.module';
+import {ProductService} from './product.service';
 
 @NgModule({
   declarations: [
@@ -34,3 +34,4 @@ import {ProductService} from "./product.service";
 
 export class ProductModule {
 };
+

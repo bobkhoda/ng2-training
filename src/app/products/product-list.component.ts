@@ -1,6 +1,6 @@
-import {Component, OnInit} from "@angular/core";
-import {IProduct} from "./product";
-import {ProductService} from "./product.service";
+import {Component, OnInit} from '@angular/core';
+import {IProduct} from './product';
+import {ProductService} from './product.service';
 
 @Component({
     templateUrl: 'product-list.component.html',
@@ -8,7 +8,7 @@ import {ProductService} from "./product.service";
 })
 
 export class ProductListComponent implements OnInit {
-    productList: string = "Product List of goodness";
+    productList: string = 'Product List of goodness';
     imageWidth: number = 50;
     imageMargin: number = 2;
     showImage: boolean = false;
